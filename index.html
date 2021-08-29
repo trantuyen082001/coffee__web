@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee-Tran Tuyen</title>
+    <link rel="icon" href="https://scontent.fdad1-2.fna.fbcdn.net/v/t39.30808-6/226386100_878182246439452_9186821651528580169_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=730e14&_nc_ohc=cFlyoOyOnYEAX8e8z8h&_nc_ht=scontent.fdad1-2.fna&oh=1be14bc4521e78c0c726406980794ed0&oe=613194A9" style="border-radius: 20px;" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/script.js">
+    <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/keen-slider@5.5.0/keen-slider.min.css">
+
+</head>
+<body>
+    <div class="main">
+        <header class="header">
+            <div class="header_container ">
+                <div class="brand">
+                    <a href="" class="brand_coffee">
+                        Coffee
+                        <small>Blend</small>
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-menu">
+                        <li class="nav-item"><a href="">Home</a></li>
+                        <li class="nav-item"><a href="">Menu</a></li>
+                        <li class="nav-item"><a href="">Service</a></li>
+                        <li class="nav-item"><a href="">Blog</a></li>
+                        <li class="nav-item"><a href="">About</a></li>
+                        <li class="nav-item" id="nav-item">
+                            Shop
+                            <i class='bx bx-down-arrow icon'></i>
+                            <ul class="subnav">
+                                <li><a class="subnav_item" href="#">Shop</a></li>
+                                <li><a class="subnav_item" href="#">Single Product</a></li>
+                                <li><a class="subnav_item" href="#">Cart</a></li>
+                                <li><a class="subnav_item" href="#">Check out</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a href="">Contact</a></li>
+                        <li class="nav-item cart">
+                            <i class='nav_cart bx bxs-cart'></i>
+                            <span class="nav_bag">
+                                <small>1</small>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <div class="slider">
+            <div class="slider__container">
+                <!-- slider welcome -->
+                <div class="keen__img" id="keen__img">
+                    <div class="img_number1" style="background-image: url(https://preview.colorlib.com/theme/coffeeblend/images/xbg_1.jpg.pagespeed.ic.q3FmqSxDIf.webp);">
+                        <div class="img_number1__desc">
+                            <span class="desc__welcome">Welcome</span>
+                            <div class="desc__container">
+                                <h1 class="desc__title">The Best Coffee Testing Experience</h1>
+                                <p class="desc__p">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                                <div class="desc__btns">
+                                    <button class="desc__btn">Oder Now</button>
+                                    <button class="desc__btn">View Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Itroduce about location and address -->
+                <section class="slider__intro">
+                    <div class="container__wrap">
+                        <div class="container_leftRight">
+                            <div class="left__intro">
+                                <div class="intro__leftGroup">
+                                    <div class="intro1__number">
+                                        <div class="intro__icon">
+                                            <i class='bx bx-phone'></i>
+                                        </div>
+                                        <div class="intro_text">
+                                            <h3>000 (123) 456 7890</h3>
+                                            <p>A small river named Duden flows by their place and supplies.</p>
+                                        </div>
+                                    </div>
+                                    <div class="intro1__address">
+                                        <div class="intro__icon">
+                                            <i class='bx bx-current-location'></i>
+                                        </div>
+                                        <div class="intro_text">
+                                            <h3>198 West 21th Street</h3>
+                                            <p>203 Fake St. Mountain View, San Francisco, California, USA</p>
+                                        </div>
+                                    </div>
+                                    <div class="intro1__open">
+                                        <div class="intro__icon">
+                                            <i class='bx bx-time'></i>
+                                        </div>
+                                        <div class="intro_text">
+                                            <h3>Open Monday-Friday</h3>
+                                            <p>8:00am - 9:00pm</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="right__intro">
+                                <h3>Book a table</h3>
+                                <form action="#" class="intro__appointment">
+                                    <div class="intro__form">
+                                        <div class="form__firstName">
+                                            <input type="text" placeholder="First Name" class="form__control">
+                                        </div>
+                                        <div class="form__lastName">
+                                            <input type="text" placeholder="Last Name" class="form__control">
+                                        </div>
+                                    </div>
+                                    <div class="intro__form">
+                                        <div class="form__time">
+                                            <div class="form__icon">
+                                                <i class='bx bx-calendar-event'></i>
+                                            </div>
+                                            <input type="text" placeholder="Date" class="form__control appointment__date">
+                                        </div>
+                                        <div class="form__time time2">
+                                            <div class="form__icon">
+                                                <i class='bx bxs-time-five' ></i>
+                                            </div>
+                                            <input type="text" placeholder="Time" autocomplete="off" class="form__control appointment__time">
+                                        </div>
+                                        <div class="form__time phone3">
+                                            <div class="form__icon">
+                                                <i class='bx bx-phone-call'></i>
+                                            </div>
+                                            <input type="text" placeholder="Phone" class="form__control appointment__phone">
+                                        </div>
+                                    </div>
+                                    <div class="intro__form">
+                                        <div class="form__last">
+                                        <textarea cols="30" rows="2" class="form__control" placeholder="Message"></textarea>
+                                        </div>
+                                        <div class="form__last form__book">
+                                            <input type="submit" value="Appointment" class="form__submit">
+                                        </div>
+                                    </div>
+
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Story  -->
+                <section class="slider_story">
+                    <div class="left__story">
+                        <img src="assets/img/xabout.jpg.pagespeed.ic.1CZ91rANlw.webp" alt="">
+                    </div>
+                    
+                    <div class="right__story">
+                        <div class="story__container">
+                            <div class="story__title">
+                                <span class="title__discover">Discover</span>
+                                <h2 class="title__story">Our Story</h2>
+                            </div>
+                            <div class="story__desc">
+                                <p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Service delivery -->
+                <section class="slider__services">
+                    <div class="services__container">
+                        <div class="service__list">
+                            <div class="sevice__item">
+                                <div class="item__container">
+                                    <div class="modern__item">
+                                        <span class="item__icon">
+                                            <i class='bx bx-barcode'></i>
+                                        </span>
+                                    </div>
+                                    <div class="modern__desc">
+                                        <h3>Easy to order</h3>
+                                        <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sevice__item">
+                                <div class="item__container">
+                                    <div class="modern__item">
+                                        <span class="item__icon">
+                                            <i class='bx bxs-truck'></i>
+                                        </span>
+                                    </div>
+                                    <div class="modern__desc">
+                                        <h3>Fastest delivery</h3>
+                                        <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sevice__item">
+                                <div class="item__container">
+                                    <div class="modern__item">
+                                        <span class="item__icon">
+                                            <i class='bx bx-coffee-togo'></i>
+                                        </span>
+                                    </div>
+                                    <div class="modern__desc">
+                                        <h3>Quality coffee</h3>
+                                        <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- discover - our menu -->
+                <section class="slider__menu">
+                    <div class="menu__container">
+                        <div class="menu__list">
+                            <div class="menu__left">
+                                <span>Discover</span>
+                                <h2>Our Menu</h2>
+                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                                <button class="menu__btn">View Full Menu</button>
+                            </div>
+
+                            <div class="menu__right">
+                                <div class="right__container">
+                                    <div class="container__img">
+                                        <a href="#">
+                                            <img src="https://preview.colorlib.com/theme/coffeeblend/images/xmenu-1.jpg.pagespeed.ic.YVtTcI36Lp.webp" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="container__img">
+                                        <a href="#">
+                                            <img src="https://preview.colorlib.com/theme/coffeeblend/images/xmenu-2.jpg.pagespeed.ic.bRSoqTHrVT.webp" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="container__img">
+                                        <a href="#">
+                                            <img src="https://preview.colorlib.com/theme/coffeeblend/images/xmenu-3.jpg.pagespeed.ic.Wlm0mCFmfW.webp" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="container__img">
+                                        <a href="#">
+                                            <img src="https://preview.colorlib.com/theme/coffeeblend/images/xmenu-4.jpg.pagespeed.ic.rlVb98rr_S.webp" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- slider__number -->
+                <section class="slider__number" id="slider__number" style="background-image: url(https://preview.colorlib.com/theme/coffeeblend/images/xbg_2.jpg.pagespeed.ic.MyjXZaMk8H.webp); 
+                   background-position: 50% -48.4062px;">
+                    <div class="number__overlay"></div>
+                    <div class="number__container">
+                        <div class="container__row">
+                            <div class="row__list">
+                                <div class="list__item">
+                                    <div class="item__coffee">
+                                        <div class="coffee__text">
+                                            <div class="text__icon">
+                                                <i class='bx bx-coffee'></i>
+                                            </div>
+                                            <div class="number" data-number="387">387</div>
+                                            <p >Coffee Branches</p>
+                                        </div>
+                                    </div>
+                                    <div class="item__coffee">
+                                        <div class="coffee__text">
+                                            <div class="text__icon">
+                                                <i class='bx bx-coffee'></i>
+                                            </div>
+                                            <div class="number" data-number="102">102</div>
+                                            <p>Number of Awards</p>
+                                        </div>
+                                    </div>
+                                    <div class="item__coffee">
+                                        <div class="coffee__text">
+                                            <div class="text__icon">
+                                                <i class='bx bx-coffee'></i>
+                                            </div>
+                                            <div class="number" data-number="10567">10567</div>
+                                            <p>Happy Customer</p>
+                                        </div>
+                                    </div>
+                                    <div class="item__coffee">
+                                        <div class="coffee__text">
+                                            <div class="text__icon">
+                                                <i class='bx bx-coffee'></i>
+                                            </div>
+                                            <div class="number" data-number="900">900</div>
+                                            <p>Staff</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Slider - best coffee sellers  -->
+                <section class="slider__seller">
+                    <div class="seller__top">
+                        <div class="sellers__title">
+                            <h2>Discover</h2>
+                            <h3>Best Coffee Sellers</h3>
+                        </div>
+                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    </div>
+
+                    <div class="seller__bottom">
+                        <div class="seller__container">
+                            <div class="sellers__list">
+                                <div class="seller__item">
+                                    <div class="item__container">
+                                        <img src="https://images.unsplash.com/photo-1504753793650-d4a2b783c15e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=333&q=80" alt="">
+                                        <div class="container__desc">
+                                            <h3>Coffee Capuccino</h3>
+                                            <p>A small river named Duden flows by their place and supplies</p>
+                                            <span>$5.90</span>
+                                        </div>
+                                        <button class="container__btn">Add To Cart</button>
+                                    </div>
+                                </div>
+                                <div class="seller__item">
+                                    <div class="item__container">
+                                        <img src="https://images.unsplash.com/photo-1561478908-d067fe75a553?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" alt="">
+                                        <div class="container__desc">
+                                            <h3>Cafe Mocha</h3>
+                                            <p>A small river named Duden flows by their place and supplies</p>
+                                            <span>$6.70</span>
+                                        </div>
+                                        <button class="container__btn">Add To Cart</button>
+                                    </div>
+                                </div>
+                                <div class="seller__item">
+                                    <div class="item__container">
+                                        <img src="https://images.unsplash.com/photo-1564393368173-9ba9995b84ce?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" alt="">
+                                        <div class="container__desc">
+                                            <h3>Americano Cafe</h3>
+                                            <p>A small river named Duden flows by their place and supplies</p>
+                                            <span>$4.00</span>
+                                        </div>
+                                        <button class="container__btn">Add To Cart</button>
+                                    </div>
+                                </div>
+                                <div class="seller__item">
+                                    <div class="item__container">
+                                        <img src="https://images.unsplash.com/photo-1561047029-3000c68339ca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=334&q=80" alt="">
+                                        <div class="container__desc">
+                                            <h3>Coffee Expresso</h3>
+                                            <p>A small river named Duden flows by their place and supplies</p>
+                                            <span>$8.00</span>
+                                        </div>
+                                        <button class="container__btn">Add To Cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Slider - people -->
+                <section class="slider__people">
+                    <div class="people__container">
+                        <div class="people__list">
+                            <div class="people__item">
+                                <a href="" class="people__img">
+                                    <img src="https://preview.colorlib.com/theme/coffeeblend/images/xgallery-1.jpg.pagespeed.ic.1_tfaiH8Gg.webp" alt="">
+                                  
+                                   
+                                </a>
+                            </div>
+                            <div class="people__item">
+                                <a href="" class="people__img">
+                                    <img src="https://preview.colorlib.com/theme/coffeeblend/images/xgallery-2.jpg.pagespeed.ic.HeA-g_KSc1.webp" alt="">
+                                    
+                                </a>
+                            </div>
+                            <div class="people__item">
+                                <a href="" class="people__img">
+                                    <img src="https://preview.colorlib.com/theme/coffeeblend/images/xgallery-3.jpg.pagespeed.ic.78rn1OaE58.webp" alt="">
+                                </a>
+                            </div>
+                            <div class="people__item">
+                                <a href="" class="people__img">
+                                    <img src="https://preview.colorlib.com/theme/coffeeblend/images/xgallery-4.jpg.pagespeed.ic.RFnkZUj91Z.webp" alt="">
+                                   
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Slider - our product -->
+                <section class="slider__product">
+                    <div class="product__container">
+                        <div class="product__top">
+                            <div class="top__title">
+                                <h2>Discover</h2>
+                                <h3>Our Products</h3>
+                            </div>
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                        </div>
+
+                        <div class="product__bottom">
+                            <div class="bottom__container">
+                                <div class="bottom__body">
+                                    <div class="body__list">
+                                        <div class="list__top">
+                                            <div class="top__title">
+                                                <a href="" id="title__name" class="title__name">Main Dish</a>
+                                                <a href="" id="title__name" class="title__name">Drinks</a>
+                                                <a href="" id="title__name" class="title__name">Desserts</a>
+                                            </div>
+                                        </div>
+
+                                        <div class="list__bottom">
+                                            <div class="product__list">
+                                                <div class="product__item">
+                                                    <div class="item__item">
+                                                        <div class="product__container">
+                                                            <img src="https://images.unsplash.com/photo-1615937657715-bc7b4b7962c1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80" alt="">
+                                                            <div class="product__desc">
+                                                                <h3>Grilled Beef</h3>
+                                                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+                                                                <span>$5.90</span>
+                                                            </div>
+                                                            <button class="product__btn">Add To Cart</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="product__item">
+                                                    <div class="item__item">
+                                                        <div class="product___container">
+                                                            <img src="https://preview.colorlib.com/theme/coffeeblend/images/xdish-2.jpg.pagespeed.ic.QNS0cGseKC.webp" alt="">
+                                                            <div class="product__desc">
+                                                                <h3>Coffee Capuccino</h3>
+                                                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+                                                                <span>$7.00</span>
+                                                            </div>
+                                                            <button class="product__btn">Add To Cart</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="product__item">
+                                                    <div class="item__item">
+                                                        <div class="product__container">
+                                                            <img src="https://preview.colorlib.com/theme/coffeeblend/images/xdish-3.jpg.pagespeed.ic.rFSCuQBWI4.webp" alt="">
+                                                            <div class="product__desc">
+                                                                <h3>Coffee Capuccino</h3>
+                                                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+                                                                <span>$10.0</span>
+                                                            </div>
+                                                            <button class="product__btn">Add To Cart</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Slider-customer says -->
+                <section class="slider__customer" style="background-image: url(https://images.unsplash.com/photo-1524350876685-274059332603?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=751&q=80);">
+                    <div class="customer__overlay"></div>
+                    <div class="customer__container">
+                        <div class="cusomter__top">
+                            <div class="customer__title">
+                                <div class="title__top">
+                                    <h2>Testimony</h2>
+                                    <h3>Customer Says</h3>
+                                </div>
+                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                            </div>
+                        </div>
+
+                        <div class="cusomter__bottom">
+                            <div class="customer__say">
+                                <div class="say__list">
+                                    <div class="say__item" style="--percent: 50%">
+                                        <p >“Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small.”</p>
+                                        <div class="customer__author">
+                                            <div class="author">
+                                                <img src="https://images.unsplash.com/photo-1463453091185-61582044d556?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="">
+                                            </div>
+                                            <div class="author__inf">
+                                                <h5>Louise Kelly</h5>
+                                                <h6>Illustrator Designer</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="say__item" style="--percent: 50%">
+                                        <p >““Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.”</p>
+                                        <div class="customer__author">
+                                            <div class="author">
+                                                <img src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" alt="">
+                                            </div>
+                                            <div class="author__inf">
+                                                <h5>Louise Kelly</h5>
+                                                <h6>Illustrator Designer</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="say__item" style="--percent: 50%">
+                                        <p >““Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however.”</p>
+                                        <div class="customer__author">
+                                            <div class="author">
+                                                <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" alt="">
+                                            </div>
+                                            <div class="author__inf">
+                                                <h5>Louise Kelly</h5>
+                                                <h6>Illustrator Designer</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="say__item" style="--percent: 50%">
+                                        <p >““Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.”</p>
+                                        <div class="customer__author">
+                                            <div class="author">
+                                                <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" alt="">
+                                            </div>
+                                            <div class="author__inf">
+                                                <h5>Louise Kelly</h5>
+                                                <h6>Illustrator Designer</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="say__item" style="--percent: 50%">
+                                        <p >“Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name.”</p>
+                                        <div class="customer__author">
+                                            <div class="author">
+                                                <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" alt="">
+                                            </div>
+                                            <div class="author__inf">
+                                                <h5>Louise Kelly</h5>
+                                                <h6>Illustrator Designer</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- slider - recent from blog -->
+                <section class="silder__blog">
+                    <div class="blog__container">
+                        <div class="blog__top">
+                            <h2>Recent From Blog</h2>
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                        </div>
+
+                        <div class="blog_bottom">
+                            <div class="blogB__container">
+                                <div class="blogB__body">
+                                    <img src="https://images.unsplash.com/photo-1447078806655-40579c2520d6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80" alt="">
+                                    <div class="blog__desc">
+                                        <div class="blogD__day">
+                                            <h3>Sept 10, 2018  Admin</h3>
+                                            <i class='bx bxs-comment-detail'></i>
+                                            <p>3</p>
+                                        </div>
+                                        <h2>The Delicious Cookie</h2>
+                                        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                                    </div>
+                                </div>
+                                <div class="blogB__body">
+                                    <img src="https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="">
+                                    <div class="blog__desc">
+                                        <div class="blogD__day">
+                                            <h3>Sept 10, 2018  Admin</h3>
+                                            <i class='bx bxs-comment-detail'></i>
+                                            <p>3</p>
+                                        </div>
+                                        <h2>The Delicious from Asian</h2>
+                                        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                                    </div>
+                                </div>
+                                <div class="blogB__body">
+                                    <img src="https://images.unsplash.com/photo-1548943487-a2e4e43b4853?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80" alt="">
+                                    <div class="blog__desc">
+                                        <div class="blogD__day">
+                                            <h3>Sept 10, 2018  Admin</h3>
+                                            <i class='bx bxs-comment-detail'></i>
+                                            <p>3</p>
+                                        </div>
+                                        <h2>The Delicious Crab Soup</h2>
+                                        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- slider - Map -->
+                <section class="slider__map">
+                    <div class="map__container">
+                        <div class="mapL__container">
+                            <div class="map__left">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d198.32080495343595!2d108.26110342961533!3d15.870161512512984!3m2!1i1024!2i768!4f13.1!5e1!3m2!1svi!2s!4v1630166702803!5m2!1svi!2s" width="675" height="310" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            </div>
+                        </div>
+                        <div class="map__right">
+                            <h3>Book a table</h3>
+                                <form action="#" class="intro__appointment">
+                                    <div class="intro__form">
+                                        <div class="form__firstName">
+                                            <input type="text" placeholder="First Name" class="form__control">
+                                        </div>
+                                        <div class="form__lastName">
+                                            <input type="text" placeholder="Last Name" class="form__control">
+                                        </div>
+                                    </div>
+                                    <div class="intro__form">
+                                        <div class="form__time">
+                                            <div class="form__icon">
+                                                <i class='bx bx-calendar-event'></i>
+                                            </div>
+                                            <input type="text" placeholder="Date" class="form__control appointment__date">
+                                        </div>
+                                        <div class="form__time time2">
+                                            <div class="form__icon">
+                                                <i class='bx bxs-time-five' ></i>
+                                            </div>
+                                            <input type="text" placeholder="Time" autocomplete="off" class="form__control appointment__time">
+                                        </div>
+                                        <div class="form__time phone3">
+                                            <div class="form__icon">
+                                                <i class='bx bx-phone-call'></i>
+                                            </div>
+                                            <input type="text" placeholder="Phone" class="form__control appointment__phone">
+                                        </div>
+                                    </div>
+                                    <div class="intro__form">
+                                        <div class="form__last">
+                                        <textarea cols="30" rows="2" class="form__control" placeholder="Message"></textarea>
+                                        </div>
+                                        <div class="form__book">
+                                            <input type="submit" value="Appointment" class="form__submit">
+                                        </div>
+                                    </div>
+                                </form>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container__footer">
+                <div class="footer__body">
+                    <div class="footer__item">
+                        <div class="item__1">
+                            <h2>About Us</h2>
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                            <div class="footer__icon">
+                                <i class='bx bxl-twitter'></i>
+                                <i class='bx bxl-facebook-circle'></i>
+                                <i class='bx bxl-instagram' ></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__item">
+                        <div class="item__2">
+                            <h2>Recent Blog</h2>
+                            <div class="footer__desc">
+                                <div class="desc__img">
+                                    <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="">
+                                </div>
+                                <div class="desc__sub">
+                                    <h4>Even the all-powerful Pointing has no control about</h4>
+                                    <div class="sub__day">
+                                        <i class='bx bxs-calendar'></i>
+                                        <p>Sept 15, 2018</p>
+                                        <i class='bx bx-user'>Admin</i>
+                                        <i class='bx bx-message-alt-detail'>19</i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer__desc">
+                                <div class="desc__img">
+                                    <img src="https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="">
+                                </div>
+                                <div class="desc__sub">
+                                    <h4>Even the all-powerful Pointing has no control about</h4>
+                                    <div class="sub__day">
+                                        <i class='bx bxs-calendar'></i>
+                                        <p>Sept 15, 2018</p>
+                                        <i class='bx bx-user'>Admin</i>
+                                        <i class='bx bx-message-alt-detail'>19</i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__item">
+                        <div class="item__3">
+                            <h2>Services</h2>
+                            <div class="service__title">
+                                <h3>Cooked</h3>
+                                <h3>Deliver</h3>
+                                <h3>Quality Foods</h3>
+                                <h3>Mixed</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__item">
+                        <div class="item__4">
+                            <h2>Have a question?</h2>
+                            <div class="faddress__title">
+                                <div class="location">
+                                    <i class='bx bxs-location-plus'></i>
+                                    <h4>203 Fake St. Mountain View, San Francisco, California, USA</h4>
+                                </div>
+                                <div class="location">
+                                    <i class='bx bxs-phone'></i>
+                                    <h4>+2 392 3929 210</h4>
+                                </div>
+                                <div class="location">
+                                    <i class='bx bx-mail-send' ></i>
+                                    <h4>info@yourdomain.com</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+    <!-- for header -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="assets/script.js"></script>
+</html>
